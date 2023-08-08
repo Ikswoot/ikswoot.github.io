@@ -87,6 +87,7 @@ h1, h2 {
 
 .mainGridNavigationItem img {
     width: 180px;
+    opacity: 0.8;
 }
 /* main content */
 
