@@ -1,0 +1,66 @@
+* {
+    /* border: 1px dashed black; */
+}
+
+h2 {
+    font-family:  Geneva;
+}
+
+time {
+    font-family: monospace;
+}
+body {
+    /* border: 1px solid black; */
+    height: 100vh;
+}
+
+#main_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lucas {
+    text-align: center;
+}
+
+.lucas p {
+    font-family: monospace;
+}
+
+#body_container {
+    display:flex;
+    justify-content: space-around;
+}
+
+#body_container {
+    display:flex;
+    justify-content: space-around;
+}
+
+footer {
+    background: whitesmoke;
+    left: 0;
+    bottom: 0;
+    font-size: 8px;
+    width: 100%;
+    position: absolute;
+
+}
+
+footer p {
+    margin: 0px; 
+    padding: 0px;
+}
+
+@media (max-width: 810px) and (min-width: 800px) {
+  * {
+    color: #BC002D;
+  }
+}
+
+@media (max-width: 821px) and (min-width: 811px) {
+    * {
+        color: orange;
+    }
+
+}
